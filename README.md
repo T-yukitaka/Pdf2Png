@@ -22,11 +22,21 @@ conda env create -n Pdf2Png -f environment.
 pip install -r requirements.txt
 ```
 
+
+```
+brew install poppler
+```
+
 ```
 pip install img2pdf
+```
+
+```
 pip install pdf2image
+```
+
+```
 pip install pillow
-brew install poppler
 ```
 
 - Convert pdf to png:
