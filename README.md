@@ -13,6 +13,7 @@ How to prevent garbled characters in pdf printing.
     ```
     git clone https://github.com/T-yukitaka/Pdf2Png.git
     cd Pdf2Png
+    mkdir data done results
     ```
 
 - Mac Setting
