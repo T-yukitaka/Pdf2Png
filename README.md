@@ -17,16 +17,32 @@ cd Pdf2Png
 ```
 
 - Mac Setting
+
 You need to install poppler using brew.
 ```
 brew install poppler
 ```
 
-- Conda Environment Setting
+- Conda Environment Setting:
 ```
 conda env create -n Pdf2Png -f environment.yml
 
+source activate Pdf2Png
+
 pip install -r requirements.txt
+```
+
+- PDF File Preparation:
+```
+${root}
+├── data
+     `-- {hoge.pdf}
+├── done
+├── results
+├── README.md
+├── Pdf2Png.py
+├── environment.yml
+└── requirements.txt
 ```
 
 - Convert pdf to png:
