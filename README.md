@@ -1,4 +1,4 @@
-# MakeGif
+# Pdf2Png
 
 pdfの印刷で文字化けを防ぐ方法．
 
@@ -46,10 +46,12 @@ ${root}
 
 - Convert pdf to png:
 1. Preparing pdf file.
+
 `data/hoge.pdf`
-1. Convert pdf to png.
+2. Convert pdf to png.
 ```
 python Pdf2Png.py
 ```
-1. Get converting pdf file.
+3. Get converting pdf file.
+
 `results/hoge_png.pdf`
