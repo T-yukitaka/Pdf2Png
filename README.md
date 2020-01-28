@@ -32,11 +32,10 @@ source activate Pdf2Png
 pip install -r requirements.txt
 ```
 
-- PDF File Preparation:
+- Directories:
 ```
 ${root}
 ├── data
-     `-- {hoge.pdf}
 ├── done
 ├── results
 ├── README.md
@@ -46,6 +45,11 @@ ${root}
 ```
 
 - Convert pdf to png:
+1. Preparing pdf file.
+`data/hoge.pdf`
+1. Convert pdf to png.
 ```
 python Pdf2Png.py
 ```
+1. Get converting pdf file.
+`results/hoge_png.pdf`
