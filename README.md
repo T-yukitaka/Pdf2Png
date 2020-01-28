@@ -17,8 +17,6 @@ How to prevent garbled characters in pdf printing.
     ```
 
 - Mac Setting
-
-You need to install poppler using brew.
     ```
     brew install poppler
     ```
