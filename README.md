@@ -15,28 +15,18 @@ pdfを一度pngの画像に変換する．
 git clone https://github.com/T-yukitaka/Pdf2Png.git
 cd Pdf2Png
 ```
-- Conda Environment Setting
 
-```
-conda env create -n Pdf2Png -f environment.
-pip install -r requirements.txt
-```
-
-
+- Mac Setting
+You need to install poppler using brew.
 ```
 brew install poppler
 ```
 
+- Conda Environment Setting
 ```
-pip install img2pdf
-```
+conda env create -n Pdf2Png -f environment.yml
 
-```
-pip install pdf2image
-```
-
-```
-pip install pillow
+pip install -r requirements.txt
 ```
 
 - Convert pdf to png:
